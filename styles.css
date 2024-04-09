@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+body {
+    background-image: url(images/seamodebg.png);
+    background-size: cover;
+    background-repeat: repeat;
+    color: #323248;
+    transition: all 2s;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+h1 {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
+}
+
+h2 , h3 {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+body.switch {
+    background-image: url(images/underseamodebg.png);
+    color: #ffffff;
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    max-width: 950px;
+    min-width: 900px;
+    margin: 1em auto;
+    padding-top: 2em;
+}
+
+header {
+    margin: 3em auto 0 auto;
+}
+
+header p {
+    margin-bottom: 2em;
+}
+
+#banner {
+    position: relative;
+    display: flex;
+    width: 925px;
+    height: 250px;
+    margin: auto;
+    background-image: url(images/seabanner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: grid;
+	place-items: center;
+}
+
+#banner.switch {
+    background-image: url(images/underseabanner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: rgb(235, 235, 235);
+    transition: all 2s;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+main section {
+    flex: 1;
+    margin: 0 .25em;
+    margin: 2%;
+    padding: 1em;
+    background-image: url(images/seasectionbg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main section.switch {
+    background-image: url(images/underseasectionbg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#projects, #research, #development, #capstone {
+    font-size: 0.7em;
+}
+
+a {
+    text-decoration: none;
+    color: #323248;
+}
+
+nav ol, nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+section li {
+    padding-left: 1.2em;
+}
+
+section a {
+    line-height: 1.1em;
+    display: inline-block;
+    padding: .5em;
+}
+
+section a:hover {
+    color: #79C9F1;
+}
+
+section.switch a {
+    color: #ffffff;
+}
+
+section.switch a:hover {
+    color: #70B7DC;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    background-color: #CAE7F9;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 12px;
+    background-image: url(images/seabutton.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #ffffff;
+}
+
+button.switch {
+    background-image: url(images/underseabutton.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #323248;
+    color: #ffffff;
+}
+
+button.switch:hover {
+    color: #323248;
+}
