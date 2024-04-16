@@ -55,16 +55,25 @@ video {
     padding-bottom: 4%;
 }
 
-.fa-step-backward {
+.fa-step-backward , .fa-play , .fa-pause , .fa-step-forward {
     color: white;
 }
 
-.fa-play {
-    color: white;
+.fa-pause {
+    display: none;
 }
 
-.fa-step-forward {
-    color: white;
+
+.fa-step-backward:hover , .fa-play:hover , .fa-pause:hover , .fa-step-forward:hover {
+    color: #BBD7EE;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.showing {
+    opacity: 1;
 }
 
 @media only screen and (min-width: 600px) {
