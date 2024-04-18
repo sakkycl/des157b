@@ -87,7 +87,11 @@
         music.currentTime = 0;
         music.load();
       })
-      
-      
+
+      //loading screen
+      const loading = document.querySelector('.fa-fish');
+      video.addEventListener('playing', function() {
+        loading.style.display = 'none';
+      })
       
 })()

@@ -71,6 +71,30 @@ video {
     color: #E3B7BC;
 }
 
+.fa-fish {
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    font-size: 1em;
+    color: #E3B7BC;
+    transform: translate(-50%, -50%);
+    animation: fish 2s infinite alternate ease-in-out;
+}
+
+@keyframes fish {
+    0% {
+      opacity: .5;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: .5;
+      transform: scale(1.5);
+    }
+  }
+
 .hidden {
     opacity: 0;
 }
@@ -137,6 +161,13 @@ nav ul li a:hover {
     video {
         width: 75%;
         height: auto;
+    }
+
+    .fa-fish {
+        position: absolute;
+        top: 17%;
+        left: 43%;
+        font-size: 1em;
     }
 
     #lyrics {
