@@ -50,21 +50,17 @@ section {
     font-weight: 700;
 }
 
-.weekdays, .days {
+.days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-gap: 2%;
     padding: 2%;
 }
 
-.weekdays div, .days div {
+.days div {
     text-align: center;
     padding: 5%;
     border-radius: 3px;
-}
-
-.weekdays div {
-    background-color: #FACC9F;
 }
 
 .days div {
@@ -106,10 +102,6 @@ footer {
 
     section {
         margin: 2%;
-    }
-
-    .weekdays {
-        font-size: 0.65em;
     }
 
     #tracker {
