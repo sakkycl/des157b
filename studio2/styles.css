@@ -1,0 +1,124 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    background-color: #FFF4ED;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+header h1{
+    color: #3D65B0;
+    margin: 0;
+}
+
+header {
+    background-color: #84D0F1;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+section {
+    background-color: #F6A771;
+    border-radius: 5px;
+    padding: 5%;
+    margin: 5%;
+}
+
+#calendar {
+    padding-bottom: 10%;
+}
+
+.month {
+    background-color: #F6A771;
+    padding: 5%;
+    font-weight: 700;
+}
+
+.weekdays, .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 2%;
+    padding: 2%;
+}
+
+.weekdays div, .days div {
+    text-align: center;
+    padding: 5%;
+    border-radius: 3px;
+}
+
+.weekdays div {
+    background-color: #FACC9F;
+}
+
+.days div {
+    background-color: #F1DACC;
+}
+
+.days div:hover {
+    background-color: #E48442;
+}
+
+footer p{
+    color: #3D65B0;
+    margin: 0;
+}
+
+footer {
+    background-color: #84D0F1;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+@media only screen and (min-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    header {
+        padding: 5%;
+    }
+
+    footer {
+        padding: 5%;
+    }
+
+    section {
+        margin: 2%;
+    }
+
+    .weekdays {
+        font-size: 0.65em;
+    }
+
+    #tracker {
+        display: flex;
+        flex-direction: row;
+    }
+
+    img {
+        padding-right: 5%;
+    }
+
+}
