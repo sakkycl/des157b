@@ -1,0 +1,14 @@
+#proposal {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7em;
+    text-align: left;
+    background-color: #323248;
+    color: #ffffff;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5%;
+}

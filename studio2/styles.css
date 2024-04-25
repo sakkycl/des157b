@@ -44,30 +44,34 @@ section {
     padding-bottom: 10%;
 }
 
-.month {
+#month {
     background-color: #F6A771;
     padding: 5%;
     font-weight: 700;
 }
 
-.days {
+#days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-gap: 2%;
     padding: 2%;
 }
 
-.days div {
+#days div {
     text-align: center;
     padding: 5%;
     border-radius: 3px;
 }
 
-.days div {
+#days div {
+    background-color: #E9BE95;
+}
+
+#days .point {
     background-color: #F1DACC;
 }
 
-.days div:hover {
+#days .point:hover {
     background-color: #E48442;
 }
 
