@@ -110,11 +110,13 @@ footer {
 
     #tracker {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     img {
         padding-right: 5%;
+        width: 65%;
+        height: auto;
     }
 
 }

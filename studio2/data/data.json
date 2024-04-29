@@ -1,41 +1,49 @@
 {
     "day1" : {
-        "date" : "2024-4-14",
+        "date" : "April 14",
+        "weekday" : "Sunday",
         "sleep_hours" : 3,
         "nap_hours" : 0
     },
     "day2" : {
-        "date" : "2024-4-15",
+        "date" : "April 15",
+        "weekday" : "Monday",
         "sleep_hours" : 7,
         "nap_hours" : 0
     },
     "day3" : {
-        "date" : "2024-4-16",
+        "date" : "April 16",
+        "weekday" : "Tuesday",
         "sleep_hours" : 2,
         "nap_hours" : 0
     },
     "day4" : {
-        "date" : "2024-4-17",
+        "date" : "April 17",
+        "weekday" : "Wednesday",
         "sleep_hours" : 0,
         "nap_hours" : 2
     },
     "day5" : {
-        "date" : "2024-4-18",
+        "date" : "April 18",
+        "weekday" : "Thursday",
         "sleep_hours" : 2,
         "nap_hours" : 3
     },
     "day6" : {
-        "date" : "2024-4-19",
+        "date" : "April 19",
+        "weekday" : "Friday",
         "sleep_hours" : 11,
         "nap_hours" : 0
     },
     "day7" : {
-        "date" : "2024-4-20",
+        "date" : "April 20",
+        "weekday" : "Saturday",
         "sleep_hours" : 5,
         "nap_hours" : 1
     },
     "day8" : {
-        "date" : "2024-4-21",
+        "date" : "April 21",
+        "weekday" : "Sunday",
         "sleep_hours" : 9,
         "nap_hours" : 0
     }
