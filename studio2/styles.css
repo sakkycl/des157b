@@ -12,7 +12,7 @@ body {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -115,7 +115,7 @@ footer {
 
     img {
         padding-right: 5%;
-        width: 65%;
+        max-width: 65%;
         height: auto;
     }
 
