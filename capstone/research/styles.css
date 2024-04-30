@@ -12,16 +12,19 @@
     margin-right: auto;
 }
 
-#comanalysis header {
+header {
     margin-top: 0;
     background-color: #79C9F1;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 5%;
     padding-right: 5%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-#container {
+#acontainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -31,7 +34,7 @@
     padding-right: 15%;
 }
 
-#comanalysis #container article {
+#comanalysis #acontainer article {
     padding-left: 2%;
     padding-right: 2%;
     border: 4px solid #323248;
@@ -50,4 +53,40 @@ h2 a:hover {
 img {
     max-width: 75%;
     height: auto;
+}
+
+body {
+    background-color: #CAE7F9;
+}
+
+#bibliography {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+    text-align: left;
+    background-color: #CAE7F9;
+    color: #323248;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.hanging {
+    padding-left: 2em ;
+    text-indent: -2em ;
+}
+
+.para {
+    padding-left: 4em ;
+}
+
+.hanging p a {
+    text-decoration: none;
+    color: #535471;
+}
+
+.hanging p a:hover {
+    color: #79C9F1;
 }
