@@ -6,12 +6,12 @@
         try{
             const response = await fetch('data/data.json');
             if (!response.ok) {
-                throw new Error('Network response was not ok');
+                throw new Error('network response was not ok');
             }
             const myData = await response.json();
             return myData;
         } catch (error) {
-            console.error('Error getting data:', error);
+            console.error('error getting data:', error);
             return [];
         }
     }
@@ -51,11 +51,18 @@
     }
 
     //reveal data on click
-    document.addEventListener('DOMContentLoaded', () => {
+    /* document.addEventListener('DOMContentLoaded', () => {
         for (let i = 1; i <= 8; i++) {
             const div = document.getElementById(`day${i}`);
             div.addEventListener('click', () => revealData(i));
         }
-    });
+    }); */
+
+    document.addEventListener('click', function(){
+        for (let i = 1; i <= 8; i++) {
+            const div = document.getElementById(`day${i}`);
+            div.addEventListener('click', () => revealData(i));
+        }
+    })
       
 })()
