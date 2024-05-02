@@ -51,18 +51,12 @@
     }
 
     //reveal data on click
-    /* document.addEventListener('DOMContentLoaded', () => {
-        for (let i = 1; i <= 8; i++) {
-            const div = document.getElementById(`day${i}`);
-            div.addEventListener('click', () => revealData(i));
-        }
-    }); */
-
     document.addEventListener('click', function(){
         for (let i = 1; i <= 8; i++) {
             const div = document.getElementById(`day${i}`);
             div.addEventListener('click', () => revealData(i));
         }
     })
+
       
 })()
