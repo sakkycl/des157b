@@ -8,7 +8,6 @@ body {
 }
 
 header {
-    /*background-color: #44624A;*/
     background-color: #006A61;
     color: #FFF3EC;
     padding: 5%;
@@ -21,7 +20,6 @@ header {
 }
 
 main {
-    /*background-color: #8BA888;*/
     background-color: #82C99C;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -38,6 +36,21 @@ article {
 img {
     max-width: 75%;
     height: auto;
+}
+
+footer {
+    padding: 5%;
+    color: #FFF3EC;
+    font-size: 1em;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #FFF3EC;
+}
+
+footer p a:hover {
+    color: #006A61;
 }
 
 @media only screen and (min-width: 600px) {
