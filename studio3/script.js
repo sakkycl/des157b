@@ -25,7 +25,11 @@
         [29.611670, -178.491658],
         [27.839076, -179.116839],
         [24.686952, -174.272379]
-    ]).addTo(map);
+    ], {
+        color: '#F499BB',
+        fillColor: '#F499BB',
+        fillOpacity: 0.5,
+    }).addTo(map);
 
     markerH.addEventListener('click', function(){
         raspberry.scrollIntoView({behavior: "smooth"});
@@ -55,7 +59,11 @@
         [46.103709, -83.398256],
         [47.931066, -89.598682],
         [49.009051, -95.227438]
-    ]).addTo(map);
+    ], {
+        color: '#72CAED',
+        fillColor: '#72CAED',
+        fillOpacity: 0.5,
+    }).addTo(map);
 
     markerMW.addEventListener('click', function(){
         elderberry.scrollIntoView({behavior: "smooth"});
@@ -94,7 +102,11 @@
         [43.580391, -78.658955],
         [43.341160, -79.186651],
         [42.795401, -78.900816]
-    ]).addTo(map);
+    ], {
+        color: '#FAB383',
+        fillColor: '#FAB383',
+        fillOpacity: 0.5,
+    }).addTo(map);
 
     markerNE.addEventListener('click', function(){
         pear.scrollIntoView({behavior: "smooth"});
@@ -120,7 +132,11 @@
         [41.804078, -111.171723],
         [40.880295, -111.083774],
         [40.847060, -104.003854]
-    ]).addTo(map);
+    ], {
+        color: '#F8F186',
+        fillColor: '#F8F186',
+        fillOpacity: 0.5,
+    }).addTo(map);
 
     markerNW.addEventListener('click', function(){
         cherry.scrollIntoView({behavior: "smooth"});
