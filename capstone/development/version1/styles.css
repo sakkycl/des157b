@@ -1,0 +1,142 @@
+body {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color: #FFF3EC;
+    color: #F78F40;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1 {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5em;
+}
+
+h2 {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#gamecontrol img {
+    max-width: 30%;
+    height: auto;
+    padding: 8%;
+}
+
+button {
+    font-size: 2em;
+    background: url(images/buttonbg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: none;
+    padding: 3%;
+    color: #F78F40;
+    width: 100%;
+}
+
+button:hover {
+    background: url(images/buttonhvrbg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#quitbtn {
+    margin-top: 10%;
+    padding: 2%;
+}
+
+#gamecontrol {
+    display: flex;
+    flex-direction: row;
+}
+
+#game {
+    font-size: 2.5em;
+}
+
+#pancake {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#waffle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ingredients {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#flour , #egg , #milk , #butter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#game img {
+    max-width: 40%;
+    height: auto;
+}
+
+#flour img:hover , #egg img:hover , #milk img:hover , #butter img:hover {
+    animation-name: zoomin;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes zoomin {
+    0% {max-width: 40%; height: auto;}
+    50% {max-width: 45%; height: auto;}
+    100% {max-width: 40%; height: auto;}
+}
+
+#flourpopup , #eggpopup {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    font-size: 2em;
+    padding: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background: url(images/popupbg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#flourpopup p , #eggpopup p {
+    text-align: left;
+}
+
+#flourpopup h3 , #eggpopup h3 {
+    font-size: 0.7em;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.showing {
+    opacity: 100%;
+}
+
+.hidden {
+    opacity: 0;
+    z-index: -10;
+}

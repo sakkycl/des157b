@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Version 1: Capstone</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+        <link href="styles.css" rel="stylesheet">
+
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>PICK A BREAKFAST</h1>
+        </header>
+
+        <main>
+    
+            <div id="game"></div>
+
+            <div id="gamecontrol">
+                <div id="pancake">
+                    <img src="images/pancake.png" alt="pancake">
+                    <button id="pancakebtn">Pancake</button>
+                </div>
+                <div id="waffle">
+                    <img src="images/waffle.png" alt="waffle">
+                    <button id="wafflebtn">Waffle</button>
+                </div>
+            </div>
+
+            <div id="flourpopup" class="hidden">
+                <h2>UH OH!</h2>
+                <p id="flourtext"></p>
+                <h3>&#40;CLICK OR PRESS ANY KEY&#41;</h3>
+            </div>
+
+            <div id="eggpopup" class="hidden">
+                <h2>UH OH!</h2>
+                <p id="eggtext"></p>
+                <h3>&#40;CLICK OR PRESS ANY KEY&#41;</h3>
+            </div>
+
+        </main>
+
+    </body>
+
+</html>
