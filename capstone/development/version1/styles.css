@@ -91,7 +91,7 @@ button:hover {
     align-items: center;
 }
 
-#flour , #egg , #milk , #butter , #bakingpowder , #sugar , #salt , #cookingoil {
+#flour , #egg , #milk , #butter , #bakingpowder , #sugar , #salt , #cookingoil , #vanillaextract {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,7 +102,7 @@ button:hover {
     height: auto;
 }
 
-#flour img:hover , #egg img:hover , #milk img:hover , #butter img:hover , #bakingpowder img:hover , #sugar img:hover , #salt img:hover , #cookingoil img:hover {
+#flour img:hover , #egg img:hover , #milk img:hover , #butter img:hover , #bakingpowder img:hover , #sugar img:hover , #salt img:hover , #cookingoil img:hover , #vanillaextract img:hover {
     animation-name: zoomin;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -114,7 +114,7 @@ button:hover {
     100% {max-width: 40%; height: auto;}
 }
 
-#flourpopup , #eggpopup , #milkpopup , #butterpopup , #bakingpowderpopup , #sugarpopup , #saltpopup , #cookingoilpopup {
+#flourpopup , #eggpopup , #milkpopup , #butterpopup , #bakingpowderpopup , #sugarpopup , #saltpopup , #cookingoilpopup , #vanillaextractpopup {
     position: absolute;
     left: 0;
     top: 20%;
@@ -128,11 +128,11 @@ button:hover {
     background-position: center;
 }
 
-#flourpopup p , #eggpopup p , #milkpopup p , #butterpopup p , #bakingpowderpopup p , #sugarpopup p , #saltpopup p , #cookingoilpopup p {
+#flourpopup p , #eggpopup p , #milkpopup p , #butterpopup p , #bakingpowderpopup p , #sugarpopup p , #saltpopup p , #cookingoilpopup p , #vanillaextractpopup p {
     text-align: left;
 }
 
-#flourpopup h3 , #eggpopup h3 , #milkpopup h3 , #butterpopup h3 , #bakingpowderpopup h3 , #sugarpopup h3 , #saltpopup h3 , #cookingoilpopup h3 {
+#flourpopup h3 , #eggpopup h3 , #milkpopup h3 , #butterpopup h3 , #bakingpowderpopup h3 , #sugarpopup h3 , #saltpopup h3 , #cookingoilpopup h3 , #vanillaextractpopup h3 {
     font-size: 0.7em;
     padding-left: 2%;
     padding-right: 2%;
