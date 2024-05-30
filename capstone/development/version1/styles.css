@@ -91,30 +91,86 @@ button:hover {
     align-items: center;
 }
 
-#flour , #egg , #milk , #butter , #bakingpowder , #sugar , #salt , #cookingoil , #vanillaextract {
+#final {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fcake {
+    padding-top: 30%;
+}
+
+#pcake , #scake , #bcake {
+    position: absolute;
+    left: 0;
+}
+
+#thankyou {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    font-size: 1.5em;
+    padding: 8%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background: url(images/popupbg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#thankyou img {
+    max-width: 20%;
+    height: auto;
+}
+
+#thankyou button {
+    font-size: 1em;
+}
+
+#flour , #egg , #milk , #butter , #bakingpowder , #sugar , #salt , #cookingoil , #vanillaextract , #maplesyrup , #berries {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #game img {
-    max-width: 40%;
+    max-width: 25%;
     height: auto;
 }
 
-#flour img:hover , #egg img:hover , #milk img:hover , #butter img:hover , #bakingpowder img:hover , #sugar img:hover , #salt img:hover , #cookingoil img:hover , #vanillaextract img:hover {
+#flour img:hover , #egg img:hover , #milk img:hover , #butter img:hover , #bakingpowder img:hover , #sugar img:hover , #salt img:hover , #cookingoil img:hover , #vanillaextract img:hover , #maplesyrup img:hover , #berries img:hover {
     animation-name: zoomin;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
 
 @keyframes zoomin {
-    0% {max-width: 40%; height: auto;}
-    50% {max-width: 45%; height: auto;}
-    100% {max-width: 40%; height: auto;}
+    0% {max-width: 25%; height: auto;}
+    50% {max-width: 30%; height: auto;}
+    100% {max-width: 25%; height: auto;}
 }
 
-#flourpopup , #eggpopup , #milkpopup , #butterpopup , #bakingpowderpopup , #sugarpopup , #saltpopup , #cookingoilpopup , #vanillaextractpopup {
+#taskpopup {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    font-size: 1.2em;
+    padding: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background: url(images/popupbg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#taskpopup p , #taskpopup ul li {
+    text-align: left;
+}
+
+#flourpopup , #eggpopup , #milkpopup , #butterpopup , #bakingpowderpopup , #sugarpopup , #saltpopup , #cookingoilpopup , #vanillaextractpopup , #maplesyruppopup , #berriespopup {
     position: absolute;
     left: 0;
     top: 20%;
@@ -128,14 +184,58 @@ button:hover {
     background-position: center;
 }
 
-#flourpopup p , #eggpopup p , #milkpopup p , #butterpopup p , #bakingpowderpopup p , #sugarpopup p , #saltpopup p , #cookingoilpopup p , #vanillaextractpopup p {
+#flourpopup p , #eggpopup p , #milkpopup p , #butterpopup p , #bakingpowderpopup p , #sugarpopup p , #saltpopup p , #cookingoilpopup p , #vanillaextractpopup p , #maplesyruppopup p, #berriespopup p , #thankyou p {
     text-align: left;
 }
 
-#flourpopup h3 , #eggpopup h3 , #milkpopup h3 , #butterpopup h3 , #bakingpowderpopup h3 , #sugarpopup h3 , #saltpopup h3 , #cookingoilpopup h3 , #vanillaextractpopup h3 {
+#flourpopup h3 , #eggpopup h3 , #milkpopup h3 , #butterpopup h3 , #bakingpowderpopup h3 , #sugarpopup h3 , #saltpopup h3 , #cookingoilpopup h3 , #vanillaextractpopup h3 , #maplesyruppopup h3 , #berriespopup h3 {
     font-size: 0.7em;
     padding-left: 2%;
     padding-right: 2%;
+}
+
+#cookpanimation img {
+    max-width: 50%;
+    height: auto;
+    padding: 5%;
+}
+
+#cookp1 , #cookp2 , #cookp3 {
+    position: absolute;
+    opacity: 0;
+}
+
+#cookp1 {
+    animation: cookanimation1 3s infinite;
+}
+
+@keyframes cookanimation1 {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 0;}
+    
+}
+
+#cookp2 {
+    animation: cookanimation2 3s infinite;
+}
+
+@keyframes cookanimation2 {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+    
+}
+
+#cookp3 {
+    animation: cookanimation3 3s infinite;
+}
+
+@keyframes cookanimation3 {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+    
 }
 
 .showing {
