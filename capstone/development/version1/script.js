@@ -175,6 +175,7 @@
                         header.innerHTML = '<h1>ADD FINAL TOUCHES</h1>';
                         //final touches gamecontrol
                         gamecontrol.innerHTML = '<button id="quitbtn">QUIT GAME</button>';
+                        gamecontrol.style.paddingTop = '20%';
                         document.getElementById('quitbtn').addEventListener("click", function(){
                             location.reload();
                         });
@@ -298,9 +299,8 @@
         });
         //gather ingredients content
         game.innerHTML = '<div id="ingredients"><div id="flour"><img src="images/flour.png" alt="flour"><p>FLOUR</p></div><div id="egg"><img src="images/egg.png" alt="egg"><p>EGG</p> </div><div id="milk"><img src="images/milk.png" alt="milk"><p>MILK</p></div><div id="butter"><img src="images/butter.png" alt="butter"><p>BUTTER</p></div> </div> <div id="ingredients2"> <div id="bakingpowder"><img src="images/bakingpowder.png" alt="bakingpowder"><p>BAKING POWDER</p></div> <div id="sugar"><img src="images/sugar.png" alt="sugar"><p>SUGAR</p></div> <div id="salt"><img src="images/salt.png" alt="salt"><p>SALT</p></div> <div id="vanillaextract"><img src="images/vanillaextract.png" alt="vanillaextract"><p>VANILLA EXTRACT</p></div></div>';
-        document.querySelector('#game img').style.maxWidth = '25%';
 
-        //ingredients popups
+        //gather ingredients popups
 
         //input values
         const flour = document.querySelector('#flour');
@@ -425,10 +425,118 @@
         }
         //check opened popups
         function checkAllOpened() {
+
             if (popups.every(popup => popup.opened)) {
+
+                //cooking button
                 gamecontrol.innerHTML = '<button id="cookbtn">COOK</button> <button id="quitbtn">QUIT GAME</button>';
                 document.getElementById('cookbtn').addEventListener("click", function(){
-                    game.innerHTML = '<p>(pretend cooking animation is here)</p>';
+
+                    //cooking animation
+                    game.innerHTML = '<div id="cookpanimation2"> <div id="cookw1"><img src="images/cookw1.png" alt="cookw1"></div> <div id="cookw2"><img src="images/cookw2.png" alt="cookw2"></div> </div>';
+                    gamecontrol.style.paddingTop = "35%";
+                    //cooking header 
+                    header.innerHTML = '<h1>COOKING...</h1>';
+                    //cooking gamecontrol
+                    gamecontrol.innerHTML = '<button id="obtainbtn">OBTAIN</button> <button id="quitbtn">QUIT GAME</button>';
+                    document.getElementById('obtainbtn').addEventListener("click", function(){
+
+                        //final touches content
+                        game.innerHTML = '<div id="final"> <div id="fwaffle"> <div id="pwaffle"><img src="images/fwaffle.png" alt="fwaffle"></div><div id="scake" class="hidden"><img src="images/scake.png" alt="scake"></div><div id="bcake" class="hidden"><img src="images/bcake.png" alt="bcake"></div> </div> <div id="maplesyrup"><img src="images/maplesyrup.png" alt="maplesyrup"><p>MAPLE SYRUP</p></div> <div id="berries"><img src="images/berries.png" alt="berries"><p>BERRIES</p></div> </div>';
+                        //final touches header
+                        header.innerHTML = '<h1>ADD FINAL TOUCHES</h1>';
+                        //final touches gamecontrol
+                        gamecontrol.innerHTML = '<button id="quitbtn">QUIT GAME</button>';
+                        gamecontrol.style.paddingTop = '25%';
+                        document.getElementById('quitbtn').addEventListener("click", function(){
+                            location.reload();
+                        });
+                        //final touches popups
+                        //input values
+                        const maplesyrup = document.querySelector('#maplesyrup');
+                        const berries = document.querySelector('#berries');
+                        //popups
+                        const fpopups = [
+                            {
+                            fpopup: document.getElementById('maplesyruppopup'),
+                            fpopuptext: document.getElementById('maplesyruptext'),
+                            ftextSet: [
+                                ['First message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                            ],
+                            fcurrentSetIndex: 0,
+                            fchangeCount: 0,
+                            fopened: false,
+                            div: document.getElementById('scake'),
+                            },
+                            {
+                            fpopup: document.getElementById('berriespopup'),
+                            fpopuptext: document.getElementById('berriestext'),
+                            ftextSet: [
+                                ['First message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                            ],
+                            fcurrentSetIndex: 0,
+                            fchangeCount: 0,
+                            fopened: false,
+                            div: document.getElementById('bcake'),
+                            }
+                        ];
+                        //popups text
+                        function fchangeText(index) {
+                            const fpopupObj = fpopups[index];
+                            if (fpopupObj.fchangeCount < 5) {
+                            fpopupObj.fpopuptext.textContent = fpopupObj.ftextSet[fpopupObj.fcurrentSetIndex][fpopupObj.fchangeCount];
+                            fpopupObj.fchangeCount++;
+                            } else {
+                            fpopupObj.fpopup.classList.add('hidden');
+                            document.removeEventListener('keydown', fpopupObj.keydownHandler);
+                            fpopupObj.fpopup.removeEventListener('click', fpopupObj.clickHandler);
+                            }
+                            fpopupObj.fopened = true;
+                            fcheckAllOpened();
+                            fpopupObj.div.classList.replace('hidden', 'showing');
+                        }
+                        //open popups
+                        function fopenpopup(index) {
+                            const fpopupObj = fpopups[index];
+                            //popupObj.popuptext.textContent = '';
+                            fpopupObj.fchangeCount = 0;
+                            fpopupObj.fcurrentSetIndex = (fpopupObj.fcurrentSetIndex + 1) % fpopupObj.ftextSet.length;
+                            fpopupObj.fpopup.classList.remove('hidden');
+
+                            fpopupObj.keydownHandler = () => fchangeText(index);
+                            fpopupObj.clickHandler = () => fchangeText(index);
+
+                            document.addEventListener('keydown', fpopupObj.keydownHandler);
+                            fpopupObj.fpopup.addEventListener('click', fpopupObj.clickHandler);
+                        }
+                        //check opened popups
+                        function fcheckAllOpened() {
+                            if (fpopups.every(fpopup => fpopup.fopened)) {
+
+                                //plate button
+                                gamecontrol.innerHTML = '<button id="platebtn">PLATE</button> <button id="quitbtn">QUIT GAME</button>';
+                                document.getElementById('quitbtn').addEventListener("click", function(){
+                                    location.reload();
+                                });
+                                document.getElementById('platebtn').addEventListener("click", function(){
+                                    header.innerHTML = '<h1>THANK YOU FOR PLAYING</h1>'
+                                    game.innerHTML = '';
+                                    gamecontrol.innerHTML = '<div id="thankyou"> <img src="images/finpancake.png" alt="finpancake"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><button id="playbtn">PLAY AGAIN</button> </div>';
+                                    document.getElementById('playbtn').addEventListener("click", function(){
+                                        location.reload();
+                                    });
+                                });
+                            }
+
+                        }
+                        maplesyrup.addEventListener('click', () => fopenpopup(0));
+                        berries.addEventListener('click', () => fopenpopup(1));
+
+                    });
+                    document.getElementById('quitbtn').addEventListener("click", function(){
+                        location.reload();
+                    });
+
                 });
                 document.getElementById('quitbtn').addEventListener("click", function(){
                     location.reload();
@@ -436,7 +544,9 @@
                 gamecontrol.style.flexDirection = 'column';
                 gamecontrol.style.paddingLeft = '25%';
                 gamecontrol.style.paddingRight = '25%';
+
             }
+
           }
         flour.addEventListener('click', () => openpopup(0));
         egg.addEventListener('click', () => openpopup(1));
