@@ -47,7 +47,7 @@
             popup: document.getElementById('flourpopup'),
             popuptext: document.getElementById('flourtext'),
             textSet: [
-                ['You are running low on flour! Lets use what we have left…', 'Wheat goes through the process of milling to produce flour. However, extreme weather conditions has impacted the production of wheat dramatically.', 'Wheat production in Argentina, the largest wheat producer in South America, was threatened by an extreme drought last year.', '—while wheat production in Kansas, a top wheat producing states, was threatened by the hard red winter.', 'As heatwaves and many other extreme weather conditions become more frequent, there may be a future when wheat and wheat products like flour is completely gone.']
+                ['You are running low on flour! Lets use what we have left…', 'Wheat goes through the process of milling to produce flour. However, extreme weather conditions has impacted the production of wheat dramatically.', 'Wheat production in Argentina, the largest wheat producer in South America, was threatened by an extreme drought last year.', '—while wheat production in Kansas, a top wheat producing state, was threatened by the hard red winter.', 'As heatwaves and other extreme weather conditions become more frequent, there may be a future when wheat and wheat products like flour is completely gone.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -318,7 +318,7 @@
             popup: document.getElementById('flourpopup'),
             popuptext: document.getElementById('flourtext'),
             textSet: [
-                ['You are running low on flour! Lets use what we have left…', 'Wheat goes through the process of milling to produce flour. However, extreme weather conditions has impacted the production of wheat dramatically.', 'Wheat production in Argentina, the largest wheat producer in South America, was threatened by an extreme drought last year.', '—while wheat production in Kansas, a top wheat producing states, was threatened by the hard red winter.', 'As heatwaves and many other extreme weather conditions become more frequent, there may be a future when wheat and wheat products like flour is completely gone.']
+                ['You are running low on flour! Lets use what we have left…', 'Wheat goes through the process of milling to produce flour. However, extreme weather conditions has impacted the production of wheat dramatically.', 'Wheat production in Argentina, the largest wheat producer in South America, was threatened by an extreme drought last year.', '—while wheat production in Kansas, a top wheat producing state, was threatened by the hard red winter.', 'As heatwaves and other extreme weather conditions become more frequent, there may be a future when wheat and wheat products like flour is completely gone.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
