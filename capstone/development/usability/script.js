@@ -47,7 +47,7 @@
             popup: document.getElementById('flourpopup'),
             popuptext: document.getElementById('flourtext'),
             textSet: [
-                ['First message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['You are running low on flour! Lets use what we have left…', 'Wheat goes through the process of milling to produce flour. However, extreme weather conditions has impacted the production of wheat dramatically.', 'Wheat production in Argentina, the largest wheat producer in South America, was threatened by an extreme drought last year.', '—while wheat production in Kansas, a top wheat producing states, was threatened by the hard red winter.', 'As heatwaves and many other extreme weather conditions become more frequent, there may be a future when wheat and wheat products like flour is completely gone.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -57,7 +57,7 @@
             popup: document.getElementById('eggpopup'),
             popuptext: document.getElementById('eggtext'),
             textSet: [
-                ['First message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['You are running low on eggs! Hopefully this is enough for the pancake batter…', 'Second message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -318,7 +318,7 @@
             popup: document.getElementById('flourpopup'),
             popuptext: document.getElementById('flourtext'),
             textSet: [
-                ['First message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['You are running low on flour! Lets use what we have left…', 'Wheat goes through the process of milling to produce flour. However, extreme weather conditions has impacted the production of wheat dramatically.', 'Wheat production in Argentina, the largest wheat producer in South America, was threatened by an extreme drought last year.', '—while wheat production in Kansas, a top wheat producing states, was threatened by the hard red winter.', 'As heatwaves and many other extreme weather conditions become more frequent, there may be a future when wheat and wheat products like flour is completely gone.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -328,7 +328,7 @@
             popup: document.getElementById('eggpopup'),
             popuptext: document.getElementById('eggtext'),
             textSet: [
-                ['First message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['You are running low on eggs! Hopefully this is enough for the waffle batter…', 'Second message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
