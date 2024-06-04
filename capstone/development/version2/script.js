@@ -57,7 +57,7 @@
             popup: document.getElementById('eggpopup'),
             popuptext: document.getElementById('eggtext'),
             textSet: [
-                ['You are running low on eggs! Hopefully this is enough for the pancake batter…', 'Second message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['You are running low on eggs! Hopefully this is enough for the pancake batter…', 'Poultry are facing the adverse affects of extreme weather conditions, such as the increasing temperatures in Africa.', 'Unable to regulate their temperature, birds in the poultry farms may lose vital nutrients used for egg production.', 'They may reduce the number and size of eggs produced, affecting the quality and quantity of poultry production.', 'Despite the low global warming potential of poultry, poultry products may may disappear in the future from the climate crisis.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -249,7 +249,7 @@
                                 document.getElementById('platebtn').addEventListener("click", function(){
                                     header.innerHTML = '<h1>THANK YOU FOR PLAYING</h1>'
                                     game.innerHTML = '';
-                                    gamecontrol.innerHTML = '<div id="thankyou"> <img src="images/finpancake.png" alt="finpancake"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><button id="playbtn">PLAY AGAIN</button> </div>';
+                                    gamecontrol.innerHTML = '<div id="thankyou"> <img src="images/finpancake.png" alt="finpancake"> <h2>SUSPICIOUS PANCAKE</h2> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><button id="playbtn">PLAY AGAIN</button> </div>';
                                     document.getElementById('playbtn').addEventListener("click", function(){
                                         location.reload();
                                     });
@@ -328,7 +328,7 @@
             popup: document.getElementById('eggpopup'),
             popuptext: document.getElementById('eggtext'),
             textSet: [
-                ['First message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['You are running low on eggs! Hopefully this is enough for the pancake batter…', 'Poultry are facing the adverse affects of extreme weather conditions, such as the increasing temperatures in Africa.', 'Unable to regulate their temperature, birds in the poultry farms may lose vital nutrients used for egg production.', 'They may reduce the number and size of eggs produced, affecting the quality and quantity of poultry production.', 'Despite the low global warming potential of poultry, poultry products may may disappear in the future from the climate crisis.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -521,7 +521,7 @@
                                 document.getElementById('platebtn').addEventListener("click", function(){
                                     header.innerHTML = '<h1>THANK YOU FOR PLAYING</h1>'
                                     game.innerHTML = '';
-                                    gamecontrol.innerHTML = '<div id="thankyou"> <img src="images/finpancake.png" alt="finpancake"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><button id="playbtn">PLAY AGAIN</button> </div>';
+                                    gamecontrol.innerHTML = '<div id="thankyou"> <img src="images/finpancake.png" alt="finpancake"> <h2>SUSPICIOUS WAFFLE</h2> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><button id="playbtn">PLAY AGAIN</button> </div>';
                                     document.getElementById('playbtn').addEventListener("click", function(){
                                         location.reload();
                                     });

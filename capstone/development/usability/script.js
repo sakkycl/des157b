@@ -57,7 +57,7 @@
             popup: document.getElementById('eggpopup'),
             popuptext: document.getElementById('eggtext'),
             textSet: [
-                ['You are running low on eggs! Hopefully this is enough for the pancake batter…', 'Second message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['You are running low on eggs! Hopefully this is enough for the pancake batter…', 'Poultry is facing adverse affects from extreme weather conditions, such as the increasing temperatures in Africa.', 'Unable to regulate their temperature, birds in poultry farms may lose vital nutrients used for egg production.', 'They may reduce the number and size of eggs produced, affecting the quality and quantity of poultry production.', 'Despite its low global warming potential, poultry may disappear in the future from the climate crisis.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -328,7 +328,7 @@
             popup: document.getElementById('eggpopup'),
             popuptext: document.getElementById('eggtext'),
             textSet: [
-                ['You are running low on eggs! Hopefully this is enough for the waffle batter…', 'Second message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['You are running low on eggs! Hopefully this is enough for the waffle batter…', 'Poultry is facing adverse affects from extreme weather conditions, such as the increasing temperatures in Africa.', 'Unable to regulate their temperature, birds in poultry farms may lose vital nutrients used for egg production.', 'They may reduce the number and size of eggs produced, affecting the quality and quantity of poultry production.', 'Despite its low global warming potential, poultry may disappear in the future from the climate crisis.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
