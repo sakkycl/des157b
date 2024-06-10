@@ -252,14 +252,22 @@
                                 document.getElementById('quitbtn').addEventListener("click", function(){
                                     location.reload();
                                 });
+                                //plate button on click
                                 document.getElementById('platebtn').addEventListener("click", function(){
+                                    //thank you header
                                     header.innerHTML = '<h1>THANK YOU FOR PLAYING</h1>'
+                                    //thank you game content
                                     game.innerHTML = '';
-                                    gamecontrol.innerHTML = '<div id="thankyou"> <img src="images/finpancake.png" alt="finpancake" id="tyimg"> <h2>SUSPICIOUS PANCAKE</h2> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><button id="playbtn">PLAY AGAIN</button> </div>';
+                                    //thank you game control
+                                    gamecontrol.innerHTML = '<div id="thankyou"> <img src="images/finpancake.png" alt="finpancake" id="tyimg"> <h2>SUSPICIOUS PANCAKE</h2> <p>You give the pancakes a taste. Hmm… not bad. The pancakes are a bit bland but the maple syrup and berries save it. The bite leaves an unusual bitter aftertaste...</p> <button id="nextbtn">NEXT</button> </div>';
                                     document.querySelector("#tyimg").style.padding = "0";
-                                    document.getElementById('playbtn').addEventListener("click", function(){
-                                        location.reload();
+                                    document.getElementById('nextbtn').addEventListener("click", function(){
+                                        gamecontrol.innerHTML = '<div id="thankyou"> <img src="images/finpancake.png" alt="finpancake" id="tyimg"> <h2>SUSPICIOUS PANCAKE</h2> <p>As the climate crisis persist, there may be a future when our favorite foods are a luxury or completely gone. Making an effort towards sustainability is important to protect the foods you enjoy in your daily life.</p> <p>For more information, check out <a href="https://slowfoodusa.org">Slow Food USA</a></p><button id="playbtn">PLAY AGAIN</button> </div>';
+                                        document.getElementById('playbtn').addEventListener("click", function(){
+                                            location.reload();
+                                        });
                                     });
+
                                 });
                             }
 
@@ -537,14 +545,22 @@
                                 document.getElementById('quitbtn').addEventListener("click", function(){
                                     location.reload();
                                 });
+                                //plate button on click
                                 document.getElementById('platebtn').addEventListener("click", function(){
+                                    //thank you header
                                     header.innerHTML = '<h1>THANK YOU FOR PLAYING</h1>'
+                                    //thank you game content
                                     game.innerHTML = '';
-                                    gamecontrol.innerHTML = '<div id="thankyou"> <img src="images/finpancake.png" alt="finpancake" id="tyimg"> <h2>SUSPICIOUS WAFFLE</h2> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><button id="playbtn">PLAY AGAIN</button> </div>';
+                                    //thank you game control
+                                    gamecontrol.innerHTML = '<div id="thankyou"> <img src="images/finpancake.png" alt="finpancake" id="tyimg"> <h2>SUSPICIOUS PANCAKE</h2> <p>You give the pancakes a taste. Hmm… not bad. The pancakes are a bit bland but the maple syrup and berries save it. The bite leaves an unusual bitter aftertaste...</p> <button id="nextbtn">NEXT</button> </div>';
                                     document.querySelector("#tyimg").style.padding = "0";
-                                    document.getElementById('playbtn').addEventListener("click", function(){
-                                        location.reload();
+                                    document.getElementById('nextbtn').addEventListener("click", function(){
+                                        gamecontrol.innerHTML = '<div id="thankyou"> <img src="images/finpancake.png" alt="finpancake" id="tyimg"> <h2>SUSPICIOUS PANCAKE</h2> <p>As the climate crisis persist, there may be a future when our favorite foods are a luxury or completely gone. Making an effort towards sustainability is important to protect the foods you enjoy in your daily life.</p> <p>For more information, check out <a href="https://slowfoodusa.org">Slow Food USA</a></p><button id="playbtn">PLAY AGAIN</button> </div>';
+                                        document.getElementById('playbtn').addEventListener("click", function(){
+                                            location.reload();
+                                        });
                                     });
+
                                 });
                             }
 

@@ -123,21 +123,31 @@ button:hover {
     position: absolute;
     left: 0;
     top: 20%;
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding: 8%;
     margin-left: 30%;
     margin-right: 30%;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     background: url(images/popupbg.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
+#thankyou p a {
+    text-decoration: none;
+    color: #F78F40;
+}
+
+#thankyou p a:hover {
+    color: #DC4F4B;
+}
+
 #thankyou img {
     max-width: 25%;
     height: auto;
+    padding: 0;
 }
 
 #thankyou button {
