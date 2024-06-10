@@ -8,6 +8,21 @@
     const gamecontrol = document.querySelector('#gamecontrol');
     const game = document.querySelector('#game');
 
+    //music
+    const fmusic = document.querySelector('.fa-music');
+    const music = new Audio('sounds/strawberrycake.mp3');
+
+    fmusic.addEventListener('click', function(){
+        if (music.paused) {
+            music.currentTime = 0;
+            music.play();
+        } else {
+            music.currentTime = 0;
+            music.pause();
+        } 
+    });
+
+
     //pancake option
     pancakebtn.addEventListener('click', function(){
 
@@ -229,7 +244,6 @@
                         //open popups
                         function fopenpopup(index) {
                             const fpopupObj = fpopups[index];
-                            //popupObj.popuptext.textContent = '';
                             fpopupObj.fchangeCount = 0;
                             fpopupObj.fcurrentSetIndex = (fpopupObj.fcurrentSetIndex + 1) % fpopupObj.ftextSet.length;
                             fpopupObj.fpopup.classList.remove('hidden');
@@ -552,10 +566,10 @@
                                     //thank you game content
                                     game.innerHTML = '';
                                     //thank you game control
-                                    gamecontrol.innerHTML = '<div id="thankyou"> <img src="images/finpancake.png" alt="finpancake" id="tyimg"> <h2>SUSPICIOUS PANCAKE</h2> <p>You give the pancakes a taste. Hmm… not bad. The pancakes are a bit bland but the maple syrup and berries save it. The bite leaves an unusual bitter aftertaste...</p> <button id="nextbtn">NEXT</button> </div>';
+                                    gamecontrol.innerHTML = '<div id="thankyou"> <img src="images/finpancake.png" alt="finpancake" id="tyimg"> <h2>SUSPICIOUS WAFFLE</h2> <p>You give the waffles a taste. Hmm… not bad. The waffles are a bit bland but the maple syrup and berries save it. The bite leaves an unusual bitter aftertaste...</p> <button id="nextbtn">NEXT</button> </div>';
                                     document.querySelector("#tyimg").style.padding = "0";
                                     document.getElementById('nextbtn').addEventListener("click", function(){
-                                        gamecontrol.innerHTML = '<div id="thankyou"> <img src="images/finpancake.png" alt="finpancake" id="tyimg"> <h2>SUSPICIOUS PANCAKE</h2> <p>As the climate crisis persist, there may be a future when our favorite foods are a luxury or completely gone. Making an effort towards sustainability is important to protect the foods you enjoy in your daily life.</p> <p>For more information, check out <a href="https://slowfoodusa.org">Slow Food USA</a></p><button id="playbtn">PLAY AGAIN</button> </div>';
+                                        gamecontrol.innerHTML = '<div id="thankyou"> <img src="images/finpancake.png" alt="finpancake" id="tyimg"> <h2>SUSPICIOUS WAFFLE</h2> <p>As the climate crisis persist, there may be a future when our favorite foods are a luxury or completely gone. Making an effort towards sustainability is important to protect the foods you enjoy in your daily life.</p> <p>For more information, check out <a href="https://slowfoodusa.org">Slow Food USA</a></p><button id="playbtn">PLAY AGAIN</button> </div>';
                                         document.getElementById('playbtn').addEventListener("click", function(){
                                             location.reload();
                                         });

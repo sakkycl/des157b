@@ -41,6 +41,18 @@ header h2 {
     color: #F78F40;
 }
 
+.fa-music {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5em;
+    color: #F78F40;
+}
+
+.fa-music:hover {
+    color: #DC4F4B;
+}
+
 
 button {
     font-size: 2em;
@@ -64,6 +76,35 @@ button:hover {
 #quitbtn {
     margin-top: 10%;
     padding: 2%;
+}
+
+/* footer and sources */
+
+footer {
+    margin-top: 20%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F78F40;
+}
+
+footer a:hover {
+    color: #DC4F4B;
+}
+
+#sources ul li {
+    list-style-type: none;
+    padding-bottom: 4%;
+}
+
+#sources ul li a {
+    text-decoration: none;
+    color: #F78F40;
+}
+
+#sources ul li a:hover {
+    color: #DC4F4B;
 }
 
 /* game content */
