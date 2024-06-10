@@ -1,0 +1,121 @@
+/* CSS Resets */
+h1, h2, h3, h4, p, nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 600;
+}
+
+nav ul {
+    list-style-type: none;
+}
+img { max-width: 100%; display: block; }
+* { box-sizing: border-box;}
+
+video {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+/* end Resets */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+    background-color: #FFF3EC;
+}
+nav {
+    border-top: 2px solid #333;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #F78F40;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+    text-align: center;
+    padding: 10px;
+
+}
+
+nav ul li a:hover {
+    color: #DC4F4B;
+}
+
+header, footer {
+    background-color: #F5A671;
+}
+
+header, section, footer {
+    padding: 20px;
+}
+
+section:nth-child(even){
+    background-color: #FDF0D3;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+h1, h2 {
+    margin-bottom: .5em;
+}
+
+p {
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+
+ol li {
+    margin-bottom: 1em;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+address a {
+    text-decoration: none;
+    color: #333;
+}
+
+address a:hover {
+    color: #DC4F4B;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+footer p a:hover {
+    color: #DC4F4B;
+}
+
+@media only screen and (min-width: 768px) {
+    nav ul { display: flex; }
+    nav ul li { flex: 1; }
+}
+
+@media only screen and (min-width: 1000px) {
+    .container{ margin: auto; }
+    nav ul {
+        max-width: 1000px;
+        margin: auto;
+    }
+    .content { 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+}

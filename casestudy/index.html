@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>Case Study - The Future of Recipes: A Simulator</title>
+
+        <!--/ /-------- Normalize CSS --------/ /-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+        
+        <!--/ /-------- Google Fonts --------/ /-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        
+        <!--/ /-------- Font Awesome --------/ /-->
+        <!--Add this if you want icons from font awesome
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">-->
+        
+        <!--/ /-------- Your Styles --------/ /-->
+        <link href="styles.css" rel="stylesheet">
+        
+        <!--/ /-------- Needed For Mobile Devices --------/ /-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <header id="top">
+            <div class="container">
+                <h1>The Future of Recipes: A Simulator</h1>
+                <p>Sally Lee</p>
+                <address><a href="mailto:&#115;&#108;&#108;&#108;&#101;&#101;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">slllee@ucdavis.edu</a></address>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#overview">overview</a></li>
+                <li><a href="#research">research</a></li>
+                <li><a href="#design">design</a></li>
+                <li><a href="#ui">user interface</a></li>
+                <li><a href="#revisions">revisions</a></li>
+                <li><a href="#summary">summary</a></li>
+            </ul>
+        </nav>
+
+        <!--/ /-------- Overview Section --------/ /-->
+        <section id="overview">
+            <div class="container">
+                <h2>Project Overview</h2>
+                <img src="images/mindmap.png" alt="mindmap">
+                <div class="content">
+                    <p><i>The Future of Recipes: A Simulator</i> is a simple game that takes users through the process of creating a recipe in a dystopian future where the climate crisis has significantly impacted the livelihoods of humans. In such a dystopian future, recipe ingredients have become scarce. As a result, the final product of the game is an unsatisfactory breakfast.</p>
+
+                    <p>The target audience are Gen Z of all race and genders as the climate crisis is increasingly relevant for this generation, who will continue to face its adverse effects in the future. The goal of the project is to educate this generation about various foods and ingredients that are adversely affected by climate change. Users will become mindful of how the climate crisis affects their future daily lives and the future generation.</p>
+                        
+                    <p>By the end of the game, users will gain a better understanding of why sustainability must be prioritized and become more mindful consumers.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--/ /-------- UX Research Section --------/ /-->
+        <section id="research">
+            <div class="container">
+                <h2>Project Research</h2>
+                <div class="content">
+                    <p>In the early stages of my project, I had a couple mental modes that I was considering for my project but I was unsure of how my project could execute them and struggled to narrow my focus. My Comparative Research helped me narrow down my focus by offering ways these mental modes could be implemented on a page. A page that stood out to me was <a href="https://pudding.cool/2023/05/kimchi/">The search for my kimchi by Alvin Chang</a>. The page takes users on the journey of a Korean American trying to recreate his grandma&#39;s kimchi recipe.</p>
+
+                    <p>This topic is similar to one of my mental modes focussing on a dystopian narrative in which certain foods are gone and alternative foods have become commonplace. The website offered me inspiration on how I could implement this mental mode into my project effectively. I found the way the page utilized on-click, tap, and press-down interactions very successful in crafting a narrative and engaging users. This helped me narrow my focus and brainstorm ideas on how I could utilize on-click and press-down interactions and overlays to create an interactive, engaging project.</p>
+
+                    <img src="images/comanalysis.png" alt="comanalysis">
+                </div>
+            </div>
+        </section>
+
+        <!--/ /-------- Design Section --------/ /-->
+        <section id="design">
+            <div class="container">
+                <h2>Visual Design</h2>
+                <div class="content">
+                    <img src="images/dgcomp.png" alt="dgcomp">
+                    <p>This project tackles a serious topic where seeking solutions sometimes seem hopeless. Therefore, the typography, imagery, and color palette of my project were chosen to make the topic more approachable. Leaning into the game aspect of the page, the icons and imagery follows a pixel art style. The typography, Silkscreen  and Jersey 10, were chosen to match with the pixel art style of the imagery. This style adds a sense of playfulness to the project. In addition, the color palette includes oranges, yellows, creams, and browns to add a sense of warmth. </p>
+
+                    <p>Overall, I focussed on maintaining a consistent visual design through the typography, imagery, and color palette. However, I placed less importance on the visual hierarchy. This became apparent to me during usability testing. Testers commented on how the colors of the text disrupted the visual hierarchy of the page. To fix this issue, I have changed the header text to be the darkest color, brown, while body text has changed to be an orange color. This allows the eye to naturally move from the header to the body text, creating a smooth visual hierarchy.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--/ /-------- UI Section --------/ /-->
+        <section id="ui">
+            <div class="container">
+                <h2>User Interface</h2>
+                <div class="content">
+                    <div class="column">
+                        <p>In my project&#39;s user interface, the user has one main task: follow the recipe and reach the end of the game. This task has been broken down into smaller tasks to reduce cognitive load. For each step, the user may interact with variety of icons and buttons. Icons tend to open an overlay while buttons tend to move onto the next step of the game. Ensuring that the icons and buttons function this way throughout the game is important to maintain consistency and allow users to navigate the page with ease.</p>
+
+                        <p>Overlays allows the page to chunk similar content together and reduce the user&#39;s cognitive load. Users can open and close overlays by clicking the icons, allowing them to explore the page at their own pace and creating progressive disclosure. The brightness of icons have also been reduced after the user has opened the overlay for that icon. This provides feedback to the user that the overlay has been opened. Icons also zoom in and out when the user hovers over them. This also provides feedback and implies that the icons are meant to be clicked.</p>
+                    </div>
+
+                    <div class="column">
+                        <p>Tasks:</p>
+
+                        <ol>
+                            <li>Pick a recipe to follow.</li>
+                            <li>Learn about the ingredients of the recipe.</li>
+                            <li>Reach the end of the game.</li>
+                        </ol>
+                    </div>
+                    <div>
+                        <!-- <img src="https://via.placeholder.com/400x600">
+                        <img src="https://via.placeholder.com/400x600"> -->
+                        <video id="buttons" controls muted autoplay loop playsinline>
+                            <source src="images/buttons.mp4" type="video/mp4">
+                            <p>Your browser doesn't support HTML5 video.
+                                Here is a <a href="images/buttons.mp4">link to the video</a> 
+                                instead.
+                            </p>
+                        </video>
+                        <video id="icons" controls muted autoplay loop playsinline>
+                            <source src="images/icons.mp4" type="video/mp4">
+                            <p>Your browser doesn't support HTML5 video.
+                                Here is a <a href="images/icons.mp4">link to the video</a> 
+                                instead.
+                            </p>
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--/ /-------- Revisions Section --------/ /-->
+        <section id="revisions">
+            <div class="container">
+                <h2>Revisions</h2>
+                <div class="content">
+                    <p>One of the observations that stood out from user testing was that the user clicked on three icons before hovering the mouse around the page, looking for the next step. Another observation I noticed was that users waited for the cooking animation to fully stop before moving forward in the game. I also noticed that the user kept opening and closing the last overlay before clicking the “play again” button. These actions all delayed the tasks from being completed.</p>
+
+                    <p>I learned that providing more user feedback would prevent users from lingering longer than necessary on pages. Based on user testing, I have added a feature in which the icons&#39; brightness are reduced after being clicked on, indicating to the users that the overlay has been opened and implying that all icons need to be clicked to proceed with the game. This allow users to complete the task without lingering on the page. I have also prevented users from closing the last overlay in the game to prevent confusion.</p>
+
+                    <img src="images/revision.png">
+                </div>
+            </div>
+        </section>
+
+        <!--/ /-------- Summary Section --------/ /-->
+        <section id="summary">
+            <div class="container">
+                <h2>Summary</h2>
+                <div class="content">
+                    <p>Through this project, I learned about how to incorporate a large amount of data and statistics in a project without overwhelming users. By breaking tasks into smaller tasks and chunking information into overlays, I was able to incorporate data in a way that users can process at their own pace. I also learned how to utilize user interactions to craft a narrative. By building on on-click and key-down user interactions, I was able to create an engaging narrative.</p>
+
+                    <p>In this project, I am proud of the on-click and key-down user interactions throughout the game. I found these user interactions to be the most challenging part of the project. I often ran into issues with getting my code to run smoothly because I have never used key-down events in my previous projects. Familiarizing myself with key-down events became a learning curve. However, I found it rewarding to troubleshoot and overcome that learning curve.</p>
+
+                    <p>I also found it rewarding to learn more about the topic of endangered foods. As the climate crisis is something I am passionate about, learning about how it affects our diet and nutrition was a different aspect that I have not explored. Being given a chance to gain insight on the topic and create a project to spread awareness about what I learned was a rewarding experience.</p>
+                </div>
+                <img src="images/summary.png">
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>Case Study - The Future of Recipes: A Simulator</p>
+                <p>Sally Lee</p>
+                <address><a href="mailto:&#115;&#108;&#108;&#108;&#101;&#101;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">slllee@ucdavis.edu</a></address>
+                <p><a href="#top">top</a></p>
+            </div>
+        </footer>
+        
+    </body>
+
+</html>
