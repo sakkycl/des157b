@@ -41,7 +41,7 @@
             popup: document.getElementById('flourpopup'),
             popuptext: document.getElementById('flourtext'),
             textSet: [
-                ['You are running low on flour! Lets use what we have left…', 'Wheat goes through the process of milling to produce flour. However, extreme weather conditions has impacted the production of wheat dramatically.', 'Wheat production in Argentina, the largest wheat producer in South America, was threatened by an extreme drought last year.', '—while wheat production in Kansas, a top wheat producing states, was threatened by the hard red winter.', 'As heatwaves and many other extreme weather conditions become more frequent, there may be a future when wheat and wheat products like flour is completely gone.']
+                ['You are running low on flour! Lets use what we have left…', 'Wheat goes through the process of milling to produce flour.', 'However, extreme weather conditions has impacted the production of wheat dramatically.', 'Wheat production in Argentina was threatened by an extreme drought last year', '—while wheat production in Kansas was threatened by the hard red winter.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -51,7 +51,7 @@
             popup: document.getElementById('eggpopup'),
             popuptext: document.getElementById('eggtext'),
             textSet: [
-                ['You are running low on eggs! Hopefully this is enough for the pancake batter…', 'Poultry are facing the adverse affects of extreme weather conditions, such as the increasing temperatures in Africa.', 'Unable to regulate their temperature, birds in the poultry farms may lose vital nutrients used for egg production.', 'They may reduce the number and size of eggs produced, affecting the quality and quantity of poultry production.', 'Despite the low global warming potential of poultry, poultry products may may disappear in the future from the climate crisis.']
+                ['You are running low on eggs! Hopefully this is enough for the pancake batter…', 'Poultry are facing the adverse affects of extreme weather conditions.', 'This can be seen through poultry farms in Africa.', 'Unable to regulate their temperature, birds may lose vital nutrients used for egg production.', 'They may reduce the number and size of eggs produced.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -61,7 +61,7 @@
             popup: document.getElementById('milkpopup'),
             popuptext: document.getElementById('milktext'),
             textSet: [
-                ['First message 3A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 3A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 3A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 3A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 3A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['No milk... maybe water will work?', 'Dairy cows are sensitive to extreme temperatures and humidity.', 'This is increasingly apparent in the summer because of the heat and drought.', 'Heat and drought stress has shown to decrease feed intake, milk production, and livestock fertility.', 'Florida experiences a 25% loss in annual milk production, with most losses occurring in the summer.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -71,7 +71,7 @@
             popup: document.getElementById('butterpopup'),
             popuptext: document.getElementById('buttertext'),
             textSet: [
-                ['First message 4A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 4A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 4A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 4A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 4A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['You ran out of butter! Lets do without!', 'Butter is a byproduct of dairy milk.', 'Heat and drought stress of dairy cows has shown to decrease milk production, leading to butter shortages.', 'However, the butter production is also a significant cause of climate change.', 'It is three and a half times as damaging to the environment as plant-based spreads.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -81,7 +81,7 @@
             popup: document.getElementById('bakingpowderpopup'),
             popuptext: document.getElementById('bakingpowdertext'),
             textSet: [
-                ['First message 5A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 5A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 5A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 5A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 5A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['Your baking powder is expired! Maybe it is still okay to use!', 'Climate change has shown to negatively impact the consistency and taste of baked goods.', 'For example, humidity effects the quality of baking powder.', 'In extremely humid weather, baking powder may absorb extra moisture in the air.', 'This leads to extra moisture in the dough, changing the quality of the final product.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -91,7 +91,7 @@
             popup: document.getElementById('sugarpopup'),
             popuptext: document.getElementById('sugartext'),
             textSet: [
-                ['First message 6A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 6A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 6A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 6A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 6A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['You are running low on sugar! Hopefully this is enough for the pancake...', 'Some of the largest exporters of sugar are facing the adverse effects of climate change.', 'India is facing an extreme dry spell while Thailand is facing a severe drought.', 'Climate changes had led to a decrease in sugar production and increase in prices.', 'Prices for sugar and sweets in the United States increased by 8.9% in 2023.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -101,7 +101,7 @@
             popup: document.getElementById('saltpopup'),
             popuptext: document.getElementById('salttext'),
             textSet: [
-                ['First message 7A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 7A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 7A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 7A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 7A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['You ran out of salt! You only need a pinch...', 'Commercial salt is made from rock salt, seawater, and other brines.', 'Salt production is vulnerable to rising temperatures and sea levels.', 'More and more companies are looking for sustainable methods to make salt.', 'The Syracuse Salt Company began using brine from ground water to fight against the effects of climate change.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -111,7 +111,7 @@
             popup: document.getElementById('cookingoilpopup'),
             popuptext: document.getElementById('cookingoiltext'),
             textSet: [
-                ['First message 8A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 8A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 8A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 8A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 8A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['You are running low on cooking oil! Hopefully you can make at a couple pancakes with what you have!', 'The climate crisis effects the production of many commonly used cooking oils.', 'In 2022, droughts across South America lead to a drop in soybean oil production', '—while a drought in Canada has lead to a drop in canola oil production.', 'This lead many cooking oil prices to increase.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -192,7 +192,7 @@
                             fpopup: document.getElementById('maplesyruppopup'),
                             fpopuptext: document.getElementById('maplesyruptext'),
                             ftextSet: [
-                                ['First message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                                ['Your maple syrup is expired! Hopefully it is okay to use...', 'Extreme weather conditions has adverse effects on maple syrup production.', 'Warmer summers decreases sugar content in the sap.', 'Yearly warming also shortens tapping seasons.', 'Both conditions have reduced maple syrup yields in the industry.']
                             ],
                             fcurrentSetIndex: 0,
                             fchangeCount: 0,
@@ -203,7 +203,7 @@
                             fpopup: document.getElementById('berriespopup'),
                             fpopuptext: document.getElementById('berriestext'),
                             ftextSet: [
-                                ['First message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                                ['They’re bit overripe…', 'Unpredictable weather conditions are affecting berry production.', 'Berries such as strawberries, raspberries, and blueberries are more susceptible to pests, diseases, and droughts.', 'This can be seen in strawberry and raspberry farms in Mexico.', 'Heat and drought stress has lead to a decrease in strawberry and raspberry quality and quantity.']
                             ],
                             fcurrentSetIndex: 0,
                             fchangeCount: 0,
@@ -325,7 +325,7 @@
             popup: document.getElementById('flourpopup'),
             popuptext: document.getElementById('flourtext'),
             textSet: [
-                ['First message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['You are running low on flour! Lets use what we have left…', 'Wheat goes through the process of milling to produce flour.', 'However, extreme weather conditions has impacted the production of wheat dramatically.', 'Wheat production in Argentina was threatened by an extreme drought last year', '—while wheat production in Kansas was threatened by the hard red winter.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -335,7 +335,7 @@
             popup: document.getElementById('eggpopup'),
             popuptext: document.getElementById('eggtext'),
             textSet: [
-                ['You are running low on eggs! Hopefully this is enough for the pancake batter…', 'Poultry are facing the adverse affects of extreme weather conditions, such as the increasing temperatures in Africa.', 'Unable to regulate their temperature, birds in the poultry farms may lose vital nutrients used for egg production.', 'They may reduce the number and size of eggs produced, affecting the quality and quantity of poultry production.', 'Despite the low global warming potential of poultry, poultry products may may disappear in the future from the climate crisis.']
+                ['You are running low on eggs! Hopefully this is enough for the pancake batter…', 'Poultry are facing the adverse affects of extreme weather conditions.', 'This can be seen through poultry farms in Africa.', 'Unable to regulate their temperature, birds may lose vital nutrients used for egg production.', 'They may reduce the number and size of eggs produced.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -345,7 +345,7 @@
             popup: document.getElementById('milkpopup'),
             popuptext: document.getElementById('milktext'),
             textSet: [
-                ['First message 3A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 3A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 3A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 3A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 3A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['No milk... maybe water will work?', 'Dairy cows are sensitive to extreme temperatures and humidity.', 'This is increasingly apparent in the summer because of the heat and drought.', 'Heat and drought stress has shown to decrease feed intake, milk production, and livestock fertility.', 'Florida experiences a 25% loss in annual milk production, with most losses occurring in the summer.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -355,7 +355,7 @@
             popup: document.getElementById('butterpopup'),
             popuptext: document.getElementById('buttertext'),
             textSet: [
-                ['First message 4A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 4A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 4A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 4A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 4A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['You ran out of butter! Lets do without!', 'Butter is a byproduct of dairy milk.', 'Heat and drought stress of dairy cows has shown to decrease milk production, leading to butter shortages.', 'However, the butter production is also a significant cause of climate change.', 'It is three and a half times as damaging to the environment as plant-based spreads.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -365,7 +365,7 @@
             popup: document.getElementById('bakingpowderpopup'),
             popuptext: document.getElementById('bakingpowdertext'),
             textSet: [
-                ['First message 5A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 5A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 5A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 5A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 5A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['Your baking powder is expired! Maybe it is still okay to use!', 'Climate change has shown to negatively impact the consistency and taste of baked goods.', 'For example, humidity effects the quality of baking powder.', 'In extremely humid weather, baking powder may absorb extra moisture in the air.', 'This leads to extra moisture in the dough, changing the quality of the final product.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -375,7 +375,7 @@
             popup: document.getElementById('sugarpopup'),
             popuptext: document.getElementById('sugartext'),
             textSet: [
-                ['First message 6A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 6A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 6A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 6A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 6A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['You are running low on sugar! Hopefully this is enough for the pancake...', 'Some of the largest exporters of sugar are facing the adverse effects of climate change.', 'India is facing an extreme dry spell while Thailand is facing a severe drought.', 'Climate changes had led to a decrease in sugar production and increase in prices.', 'Prices for sugar and sweets in the United States increased by 8.9% in 2023.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -385,7 +385,7 @@
             popup: document.getElementById('saltpopup'),
             popuptext: document.getElementById('salttext'),
             textSet: [
-                ['First message 7A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 7A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 7A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 7A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 7A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['You ran out of salt! You only need a pinch...', 'Commercial salt is made from rock salt, seawater, and other brines.', 'Salt production is vulnerable to rising temperatures and sea levels.', 'More and more companies are looking for sustainable methods to make salt.', 'The Syracuse Salt Company began using brine from ground water to fight against the effects of climate change.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -395,7 +395,7 @@
             popup: document.getElementById('vanillaextractpopup'),
             popuptext: document.getElementById('vanillaextracttext'),
             textSet: [
-                ['First message 8A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 8A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 8A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 8A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 8A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                ['You ran out of vanilla extract! Lets do without!', 'Vanilla orchids are slow and difficult to grow. They are sensitive to temperature, rainfall, and humidity levels.', 'Shifts in weather patterns may lead to a reduced aroma and flavor.', 'Extreme weather events also poses a challenge for vanilla farms.', 'A tropical cyclone destroyed 30% of Madagascar’s vanilla in 2017, leading to vanilla shortages and increased prices.']
             ],
             currentSetIndex: 0,
             changeCount: 0,
@@ -477,7 +477,7 @@
                             fpopup: document.getElementById('maplesyruppopup'),
                             fpopuptext: document.getElementById('maplesyruptext'),
                             ftextSet: [
-                                ['First message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 1A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                                ['Your maple syrup is expired! Hopefully it is okay to use...', 'Extreme weather conditions has adverse effects on maple syrup production.', 'Warmer summers decreases sugar content in the sap.', 'Yearly warming also shortens tapping seasons.', 'Both conditions have reduced maple syrup yields in the industry.']
                             ],
                             fcurrentSetIndex: 0,
                             fchangeCount: 0,
@@ -488,7 +488,7 @@
                             fpopup: document.getElementById('berriespopup'),
                             fpopuptext: document.getElementById('berriestext'),
                             ftextSet: [
-                                ['First message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Second message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Third message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fourth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'Fifth message 2A: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+                                ['They’re bit overripe…', 'Unpredictable weather conditions are affecting berry production.', 'Berries such as strawberries, raspberries, and blueberries are more susceptible to pests, diseases, and droughts.', 'This can be seen in strawberry and raspberry farms in Mexico.', 'Heat and drought stress has lead to a decrease in strawberry and raspberry quality and quantity.']
                             ],
                             fcurrentSetIndex: 0,
                             fchangeCount: 0,
